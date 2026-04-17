@@ -1,0 +1,2458 @@
+{
+  "0.2": {
+    "All": {
+      "Decision Tree": {
+        "acc": 0.9346,
+        "f1": 0.9544,
+        "prec": 0.9526,
+        "recall": 0.9561
+      },
+      "Random Forest": {
+        "acc": 0.9738,
+        "f1": 0.9818,
+        "prec": 0.9765,
+        "recall": 0.9872
+      },
+      "Gradient Boost": {
+        "acc": 0.9529,
+        "f1": 0.9672,
+        "prec": 0.9637,
+        "recall": 0.9707
+      },
+      "XGBoost": {
+        "acc": 0.983,
+        "f1": 0.9881,
+        "prec": 0.9908,
+        "recall": 0.9854
+      },
+      "Ada Boost": {
+        "acc": 0.8743,
+        "f1": 0.9141,
+        "prec": 0.8949,
+        "recall": 0.9342
+      },
+      "Extra Tree": {
+        "acc": 0.9791,
+        "f1": 0.9854,
+        "prec": 0.9836,
+        "recall": 0.9872
+      },
+      "K-Neighbors": {
+        "acc": 0.966,
+        "f1": 0.9757,
+        "prec": 0.9962,
+        "recall": 0.9561
+      },
+      "Support Vector": {
+        "acc": 0.9542,
+        "f1": 0.968,
+        "prec": 0.9689,
+        "recall": 0.9671
+      },
+      "Gaussian Naive": {
+        "acc": 0.6636,
+        "f1": 0.7076,
+        "prec": 0.9367,
+        "recall": 0.5686
+      },
+      "Multi-layer": {
+        "acc": 0.9882,
+        "f1": 0.9918,
+        "prec": 0.9891,
+        "recall": 0.9945
+      },
+      "Logistic Reg": {
+        "acc": 0.8992,
+        "f1": 0.9297,
+        "prec": 0.9288,
+        "recall": 0.9305
+      }
+    },
+    "Mel+Chroma": {
+      "Decision Tree": {
+        "acc": 0.6662,
+        "f1": 0.7667,
+        "prec": 0.7674,
+        "recall": 0.766
+      },
+      "Random Forest": {
+        "acc": 0.712,
+        "f1": 0.81,
+        "prec": 0.7676,
+        "recall": 0.8574
+      },
+      "Gradient Boost": {
+        "acc": 0.7277,
+        "f1": 0.8298,
+        "prec": 0.7511,
+        "recall": 0.9269
+      },
+      "XGBoost": {
+        "acc": 0.7042,
+        "f1": 0.8028,
+        "prec": 0.7679,
+        "recall": 0.841
+      },
+      "Ada Boost": {
+        "acc": 0.7317,
+        "f1": 0.8345,
+        "prec": 0.7471,
+        "recall": 0.9452
+      },
+      "Extra Tree": {
+        "acc": 0.6898,
+        "f1": 0.7959,
+        "prec": 0.7524,
+        "recall": 0.8446
+      },
+      "K-Neighbors": {
+        "acc": 0.7134,
+        "f1": 0.8077,
+        "prec": 0.777,
+        "recall": 0.841
+      },
+      "Support Vector": {
+        "acc": 0.7304,
+        "f1": 0.8375,
+        "prec": 0.7365,
+        "recall": 0.9707
+      },
+      "Gaussian Naive": {
+        "acc": 0.6191,
+        "f1": 0.6927,
+        "prec": 0.82,
+        "recall": 0.5996
+      },
+      "Multi-layer": {
+        "acc": 0.7435,
+        "f1": 0.8367,
+        "prec": 0.7688,
+        "recall": 0.9177
+      },
+      "Logistic Reg": {
+        "acc": 0.712,
+        "f1": 0.8268,
+        "prec": 0.7261,
+        "recall": 0.9598
+      }
+    },
+    "MFCC_mean": {
+      "Decision Tree": {
+        "acc": 0.9267,
+        "f1": 0.9495,
+        "prec": 0.9376,
+        "recall": 0.9616
+      },
+      "Random Forest": {
+        "acc": 0.9791,
+        "f1": 0.9854,
+        "prec": 0.9854,
+        "recall": 0.9854
+      },
+      "Gradient Boost": {
+        "acc": 0.9018,
+        "f1": 0.9318,
+        "prec": 0.9275,
+        "recall": 0.936
+      },
+      "XGBoost": {
+        "acc": 0.9712,
+        "f1": 0.9798,
+        "prec": 0.9852,
+        "recall": 0.9744
+      },
+      "Ada Boost": {
+        "acc": 0.8338,
+        "f1": 0.8895,
+        "prec": 0.8488,
+        "recall": 0.9342
+      },
+      "Extra Tree": {
+        "acc": 0.9908,
+        "f1": 0.9936,
+        "prec": 0.9982,
+        "recall": 0.989
+      },
+      "K-Neighbors": {
+        "acc": 0.9686,
+        "f1": 0.9776,
+        "prec": 1.0,
+        "recall": 0.9561
+      },
+      "Support Vector": {
+        "acc": 0.9188,
+        "f1": 0.9439,
+        "prec": 0.9338,
+        "recall": 0.9543
+      },
+      "Gaussian Naive": {
+        "acc": 0.7251,
+        "f1": 0.7957,
+        "prec": 0.8503,
+        "recall": 0.7477
+      },
+      "Multi-layer": {
+        "acc": 0.9817,
+        "f1": 0.9872,
+        "prec": 0.9908,
+        "recall": 0.9835
+      },
+      "Logistic Reg": {
+        "acc": 0.8089,
+        "f1": 0.8713,
+        "prec": 0.8416,
+        "recall": 0.9031
+      }
+    },
+    "MFCC_std": {
+      "Decision Tree": {
+        "acc": 0.839,
+        "f1": 0.8852,
+        "prec": 0.9046,
+        "recall": 0.8665
+      },
+      "Random Forest": {
+        "acc": 0.9188,
+        "f1": 0.9444,
+        "prec": 0.9262,
+        "recall": 0.9634
+      },
+      "Gradient Boost": {
+        "acc": 0.8377,
+        "f1": 0.8905,
+        "prec": 0.8615,
+        "recall": 0.9214
+      },
+      "XGBoost": {
+        "acc": 0.9215,
+        "f1": 0.9453,
+        "prec": 0.9435,
+        "recall": 0.947
+      },
+      "Ada Boost": {
+        "acc": 0.7723,
+        "f1": 0.8505,
+        "prec": 0.8023,
+        "recall": 0.9049
+      },
+      "Extra Tree": {
+        "acc": 0.9424,
+        "f1": 0.9604,
+        "prec": 0.9451,
+        "recall": 0.9762
+      },
+      "K-Neighbors": {
+        "acc": 0.9031,
+        "f1": 0.9294,
+        "prec": 0.9721,
+        "recall": 0.8903
+      },
+      "Support Vector": {
+        "acc": 0.8717,
+        "f1": 0.9128,
+        "prec": 0.8891,
+        "recall": 0.9378
+      },
+      "Gaussian Naive": {
+        "acc": 0.6793,
+        "f1": 0.7523,
+        "prec": 0.8416,
+        "recall": 0.6801
+      },
+      "Multi-layer": {
+        "acc": 0.9215,
+        "f1": 0.9454,
+        "prec": 0.9419,
+        "recall": 0.9488
+      },
+      "Logistic Reg": {
+        "acc": 0.733,
+        "f1": 0.8291,
+        "prec": 0.7651,
+        "recall": 0.9049
+      }
+    },
+    "MFCC(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.9228,
+        "f1": 0.9462,
+        "prec": 0.9436,
+        "recall": 0.9488
+      },
+      "Random Forest": {
+        "acc": 0.9764,
+        "f1": 0.9838,
+        "prec": 0.9715,
+        "recall": 0.9963
+      },
+      "Gradient Boost": {
+        "acc": 0.9241,
+        "f1": 0.9476,
+        "prec": 0.9374,
+        "recall": 0.958
+      },
+      "XGBoost": {
+        "acc": 0.9843,
+        "f1": 0.989,
+        "prec": 0.9908,
+        "recall": 0.9872
+      },
+      "Ada Boost": {
+        "acc": 0.8416,
+        "f1": 0.8938,
+        "prec": 0.8598,
+        "recall": 0.9305
+      },
+      "Extra Tree": {
+        "acc": 0.9921,
+        "f1": 0.9945,
+        "prec": 0.9945,
+        "recall": 0.9945
+      },
+      "K-Neighbors": {
+        "acc": 0.9516,
+        "f1": 0.9653,
+        "prec": 0.9923,
+        "recall": 0.9397
+      },
+      "Support Vector": {
+        "acc": 0.9372,
+        "f1": 0.9564,
+        "prec": 0.9512,
+        "recall": 0.9616
+      },
+      "Gaussian Naive": {
+        "acc": 0.7317,
+        "f1": 0.7936,
+        "prec": 0.8834,
+        "recall": 0.7203
+      },
+      "Multi-layer": {
+        "acc": 0.9908,
+        "f1": 0.9936,
+        "prec": 0.9927,
+        "recall": 0.9945
+      },
+      "Logistic Reg": {
+        "acc": 0.8194,
+        "f1": 0.8768,
+        "prec": 0.8569,
+        "recall": 0.8976
+      }
+    },
+    "Chroma_mean": {
+      "Decision Tree": {
+        "acc": 0.6872,
+        "f1": 0.7785,
+        "prec": 0.7895,
+        "recall": 0.7678
+      },
+      "Random Forest": {
+        "acc": 0.7513,
+        "f1": 0.8368,
+        "prec": 0.7893,
+        "recall": 0.8903
+      },
+      "Gradient Boost": {
+        "acc": 0.7369,
+        "f1": 0.8315,
+        "prec": 0.7678,
+        "recall": 0.9068
+      },
+      "XGBoost": {
+        "acc": 0.7474,
+        "f1": 0.8303,
+        "prec": 0.8,
+        "recall": 0.8629
+      },
+      "Ada Boost": {
+        "acc": 0.716,
+        "f1": 0.8345,
+        "prec": 0.716,
+        "recall": 1.0
+      },
+      "Extra Tree": {
+        "acc": 0.767,
+        "f1": 0.8481,
+        "prec": 0.7952,
+        "recall": 0.9086
+      },
+      "K-Neighbors": {
+        "acc": 0.7304,
+        "f1": 0.8131,
+        "prec": 0.8072,
+        "recall": 0.819
+      },
+      "Support Vector": {
+        "acc": 0.7526,
+        "f1": 0.8472,
+        "prec": 0.7594,
+        "recall": 0.958
+      },
+      "Gaussian Naive": {
+        "acc": 0.5694,
+        "f1": 0.6188,
+        "prec": 0.8449,
+        "recall": 0.4881
+      },
+      "Multi-layer": {
+        "acc": 0.7801,
+        "f1": 0.8497,
+        "prec": 0.8319,
+        "recall": 0.8684
+      },
+      "Logistic Reg": {
+        "acc": 0.7107,
+        "f1": 0.8187,
+        "prec": 0.7426,
+        "recall": 0.9122
+      }
+    },
+    "Chroma_std": {
+      "Decision Tree": {
+        "acc": 0.6597,
+        "f1": 0.7623,
+        "prec": 0.7623,
+        "recall": 0.7623
+      },
+      "Random Forest": {
+        "acc": 0.7762,
+        "f1": 0.8567,
+        "prec": 0.791,
+        "recall": 0.9342
+      },
+      "Gradient Boost": {
+        "acc": 0.7592,
+        "f1": 0.8492,
+        "prec": 0.7697,
+        "recall": 0.947
+      },
+      "XGBoost": {
+        "acc": 0.7749,
+        "f1": 0.8502,
+        "prec": 0.812,
+        "recall": 0.8921
+      },
+      "Ada Boost": {
+        "acc": 0.7147,
+        "f1": 0.8336,
+        "prec": 0.7156,
+        "recall": 0.9982
+      },
+      "Extra Tree": {
+        "acc": 0.7696,
+        "f1": 0.8523,
+        "prec": 0.7876,
+        "recall": 0.9287
+      },
+      "K-Neighbors": {
+        "acc": 0.75,
+        "f1": 0.829,
+        "prec": 0.8123,
+        "recall": 0.8464
+      },
+      "Support Vector": {
+        "acc": 0.7343,
+        "f1": 0.8425,
+        "prec": 0.7318,
+        "recall": 0.9927
+      },
+      "Gaussian Naive": {
+        "acc": 0.6571,
+        "f1": 0.751,
+        "prec": 0.7822,
+        "recall": 0.7221
+      },
+      "Multi-layer": {
+        "acc": 0.7592,
+        "f1": 0.8462,
+        "prec": 0.7797,
+        "recall": 0.925
+      },
+      "Logistic Reg": {
+        "acc": 0.7134,
+        "f1": 0.8274,
+        "prec": 0.7271,
+        "recall": 0.9598
+      }
+    },
+    "Chroma(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.7225,
+        "f1": 0.8041,
+        "prec": 0.8131,
+        "recall": 0.7952
+      },
+      "Random Forest": {
+        "acc": 0.8207,
+        "f1": 0.8808,
+        "prec": 0.8405,
+        "recall": 0.925
+      },
+      "Gradient Boost": {
+        "acc": 0.788,
+        "f1": 0.8603,
+        "prec": 0.814,
+        "recall": 0.9122
+      },
+      "XGBoost": {
+        "acc": 0.8076,
+        "f1": 0.8689,
+        "prec": 0.8484,
+        "recall": 0.8903
+      },
+      "Ada Boost": {
+        "acc": 0.7408,
+        "f1": 0.8434,
+        "prec": 0.7434,
+        "recall": 0.9744
+      },
+      "Extra Tree": {
+        "acc": 0.8312,
+        "f1": 0.8869,
+        "prec": 0.8519,
+        "recall": 0.925
+      },
+      "K-Neighbors": {
+        "acc": 0.784,
+        "f1": 0.8488,
+        "prec": 0.8511,
+        "recall": 0.8464
+      },
+      "Support Vector": {
+        "acc": 0.7984,
+        "f1": 0.8704,
+        "prec": 0.8066,
+        "recall": 0.9452
+      },
+      "Gaussian Naive": {
+        "acc": 0.5668,
+        "f1": 0.6285,
+        "prec": 0.814,
+        "recall": 0.5119
+      },
+      "Multi-layer": {
+        "acc": 0.8442,
+        "f1": 0.8903,
+        "prec": 0.8978,
+        "recall": 0.883
+      },
+      "Logistic Reg": {
+        "acc": 0.7421,
+        "f1": 0.8303,
+        "prec": 0.785,
+        "recall": 0.8812
+      }
+    },
+    "c+s+r+z+h+p": {
+      "Decision Tree": {
+        "acc": 0.8246,
+        "f1": 0.8782,
+        "prec": 0.8734,
+        "recall": 0.883
+      },
+      "Random Forest": {
+        "acc": 0.8796,
+        "f1": 0.9164,
+        "prec": 0.9114,
+        "recall": 0.9214
+      },
+      "Gradient Boost": {
+        "acc": 0.8586,
+        "f1": 0.9027,
+        "prec": 0.8899,
+        "recall": 0.9159
+      },
+      "XGBoost": {
+        "acc": 0.9045,
+        "f1": 0.9335,
+        "prec": 0.9309,
+        "recall": 0.936
+      },
+      "Ada Boost": {
+        "acc": 0.767,
+        "f1": 0.8468,
+        "prec": 0.8,
+        "recall": 0.8995
+      },
+      "Extra Tree": {
+        "acc": 0.8783,
+        "f1": 0.9157,
+        "prec": 0.9083,
+        "recall": 0.9232
+      },
+      "K-Neighbors": {
+        "acc": 0.822,
+        "f1": 0.8768,
+        "prec": 0.8689,
+        "recall": 0.8848
+      },
+      "Support Vector": {
+        "acc": 0.8246,
+        "f1": 0.8827,
+        "prec": 0.8471,
+        "recall": 0.9214
+      },
+      "Gaussian Naive": {
+        "acc": 0.5236,
+        "f1": 0.5321,
+        "prec": 0.8961,
+        "recall": 0.3784
+      },
+      "Multi-layer": {
+        "acc": 0.873,
+        "f1": 0.9116,
+        "prec": 0.9091,
+        "recall": 0.9141
+      },
+      "Logistic Reg": {
+        "acc": 0.7474,
+        "f1": 0.8419,
+        "prec": 0.7626,
+        "recall": 0.9397
+      }
+    }
+  },
+  "0.3": {
+    "All": {
+      "Decision Tree": {
+        "acc": 0.9442,
+        "f1": 0.9609,
+        "prec": 0.9621,
+        "recall": 0.9598
+      },
+      "Random Forest": {
+        "acc": 0.9756,
+        "f1": 0.983,
+        "prec": 0.9783,
+        "recall": 0.9878
+      },
+      "Gradient Boost": {
+        "acc": 0.9564,
+        "f1": 0.9697,
+        "prec": 0.965,
+        "recall": 0.9744
+      },
+      "XGBoost": {
+        "acc": 0.9887,
+        "f1": 0.9921,
+        "prec": 0.9927,
+        "recall": 0.9915
+      },
+      "Ada Boost": {
+        "acc": 0.8839,
+        "f1": 0.9189,
+        "prec": 0.9194,
+        "recall": 0.9183
+      },
+      "Extra Tree": {
+        "acc": 0.9825,
+        "f1": 0.9878,
+        "prec": 0.9854,
+        "recall": 0.9902
+      },
+      "K-Neighbors": {
+        "acc": 0.9546,
+        "f1": 0.9675,
+        "prec": 0.9923,
+        "recall": 0.9439
+      },
+      "Support Vector": {
+        "acc": 0.9529,
+        "f1": 0.9669,
+        "prec": 0.9728,
+        "recall": 0.961
+      },
+      "Gaussian Naive": {
+        "acc": 0.6719,
+        "f1": 0.7143,
+        "prec": 0.9476,
+        "recall": 0.5732
+      },
+      "Multi-layer": {
+        "acc": 0.9825,
+        "f1": 0.9878,
+        "prec": 0.9902,
+        "recall": 0.9854
+      },
+      "Logistic Reg": {
+        "acc": 0.9049,
+        "f1": 0.9335,
+        "prec": 0.9341,
+        "recall": 0.9329
+      }
+    },
+    "Mel+Chroma": {
+      "Decision Tree": {
+        "acc": 0.6545,
+        "f1": 0.7522,
+        "prec": 0.7725,
+        "recall": 0.7329
+      },
+      "Random Forest": {
+        "acc": 0.7155,
+        "f1": 0.8126,
+        "prec": 0.7685,
+        "recall": 0.8622
+      },
+      "Gradient Boost": {
+        "acc": 0.7382,
+        "f1": 0.8371,
+        "prec": 0.7544,
+        "recall": 0.9402
+      },
+      "XGBoost": {
+        "acc": 0.7147,
+        "f1": 0.8084,
+        "prec": 0.7779,
+        "recall": 0.8415
+      },
+      "Ada Boost": {
+        "acc": 0.7382,
+        "f1": 0.8385,
+        "prec": 0.7505,
+        "recall": 0.95
+      },
+      "Extra Tree": {
+        "acc": 0.7155,
+        "f1": 0.8122,
+        "prec": 0.7697,
+        "recall": 0.8598
+      },
+      "K-Neighbors": {
+        "acc": 0.7103,
+        "f1": 0.8079,
+        "prec": 0.7687,
+        "recall": 0.8512
+      },
+      "Support Vector": {
+        "acc": 0.7382,
+        "f1": 0.8423,
+        "prec": 0.7403,
+        "recall": 0.9768
+      },
+      "Gaussian Naive": {
+        "acc": 0.6038,
+        "f1": 0.6771,
+        "prec": 0.8123,
+        "recall": 0.5805
+      },
+      "Multi-layer": {
+        "acc": 0.74,
+        "f1": 0.8364,
+        "prec": 0.7605,
+        "recall": 0.9293
+      },
+      "Logistic Reg": {
+        "acc": 0.7051,
+        "f1": 0.8212,
+        "prec": 0.7252,
+        "recall": 0.9463
+      }
+    },
+    "MFCC_mean": {
+      "Decision Tree": {
+        "acc": 0.925,
+        "f1": 0.9472,
+        "prec": 0.9542,
+        "recall": 0.9402
+      },
+      "Random Forest": {
+        "acc": 0.9712,
+        "f1": 0.9799,
+        "prec": 0.9793,
+        "recall": 0.9805
+      },
+      "Gradient Boost": {
+        "acc": 0.9154,
+        "f1": 0.941,
+        "prec": 0.9382,
+        "recall": 0.9439
+      },
+      "XGBoost": {
+        "acc": 0.9721,
+        "f1": 0.9803,
+        "prec": 0.9876,
+        "recall": 0.9732
+      },
+      "Ada Boost": {
+        "acc": 0.8316,
+        "f1": 0.8856,
+        "prec": 0.8616,
+        "recall": 0.911
+      },
+      "Extra Tree": {
+        "acc": 0.9887,
+        "f1": 0.992,
+        "prec": 0.9988,
+        "recall": 0.9854
+      },
+      "K-Neighbors": {
+        "acc": 0.9651,
+        "f1": 0.9751,
+        "prec": 0.9974,
+        "recall": 0.9537
+      },
+      "Support Vector": {
+        "acc": 0.9049,
+        "f1": 0.9338,
+        "prec": 0.9299,
+        "recall": 0.9378
+      },
+      "Gaussian Naive": {
+        "acc": 0.7277,
+        "f1": 0.7992,
+        "prec": 0.846,
+        "recall": 0.7573
+      },
+      "Multi-layer": {
+        "acc": 0.9825,
+        "f1": 0.9877,
+        "prec": 0.9926,
+        "recall": 0.9829
+      },
+      "Logistic Reg": {
+        "acc": 0.8072,
+        "f1": 0.8688,
+        "prec": 0.8462,
+        "recall": 0.8927
+      }
+    },
+    "MFCC_std": {
+      "Decision Tree": {
+        "acc": 0.8185,
+        "f1": 0.871,
+        "prec": 0.8864,
+        "recall": 0.8561
+      },
+      "Random Forest": {
+        "acc": 0.9162,
+        "f1": 0.9429,
+        "prec": 0.92,
+        "recall": 0.9671
+      },
+      "Gradient Boost": {
+        "acc": 0.8473,
+        "f1": 0.8964,
+        "prec": 0.8711,
+        "recall": 0.9232
+      },
+      "XGBoost": {
+        "acc": 0.9197,
+        "f1": 0.9443,
+        "prec": 0.9375,
+        "recall": 0.9512
+      },
+      "Ada Boost": {
+        "acc": 0.7443,
+        "f1": 0.8429,
+        "prec": 0.7522,
+        "recall": 0.9585
+      },
+      "Extra Tree": {
+        "acc": 0.9337,
+        "f1": 0.9541,
+        "prec": 0.945,
+        "recall": 0.9634
+      },
+      "K-Neighbors": {
+        "acc": 0.9031,
+        "f1": 0.9294,
+        "prec": 0.9708,
+        "recall": 0.8915
+      },
+      "Support Vector": {
+        "acc": 0.87,
+        "f1": 0.9115,
+        "prec": 0.8888,
+        "recall": 0.9354
+      },
+      "Gaussian Naive": {
+        "acc": 0.6972,
+        "f1": 0.771,
+        "prec": 0.8403,
+        "recall": 0.7122
+      },
+      "Multi-layer": {
+        "acc": 0.9302,
+        "f1": 0.9509,
+        "prec": 0.9568,
+        "recall": 0.9451
+      },
+      "Logistic Reg": {
+        "acc": 0.7373,
+        "f1": 0.8325,
+        "prec": 0.7656,
+        "recall": 0.9122
+      }
+    },
+    "MFCC(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.9302,
+        "f1": 0.9507,
+        "prec": 0.9602,
+        "recall": 0.9415
+      },
+      "Random Forest": {
+        "acc": 0.9782,
+        "f1": 0.9848,
+        "prec": 0.9818,
+        "recall": 0.9878
+      },
+      "Gradient Boost": {
+        "acc": 0.9293,
+        "f1": 0.9511,
+        "prec": 0.9415,
+        "recall": 0.961
+      },
+      "XGBoost": {
+        "acc": 0.9808,
+        "f1": 0.9865,
+        "prec": 0.9914,
+        "recall": 0.9817
+      },
+      "Ada Boost": {
+        "acc": 0.8386,
+        "f1": 0.8903,
+        "prec": 0.8662,
+        "recall": 0.9159
+      },
+      "Extra Tree": {
+        "acc": 0.9895,
+        "f1": 0.9927,
+        "prec": 0.9963,
+        "recall": 0.989
+      },
+      "K-Neighbors": {
+        "acc": 0.945,
+        "f1": 0.9603,
+        "prec": 0.9948,
+        "recall": 0.928
+      },
+      "Support Vector": {
+        "acc": 0.9433,
+        "f1": 0.9603,
+        "prec": 0.9621,
+        "recall": 0.9585
+      },
+      "Gaussian Naive": {
+        "acc": 0.74,
+        "f1": 0.8029,
+        "prec": 0.8772,
+        "recall": 0.7402
+      },
+      "Multi-layer": {
+        "acc": 0.9904,
+        "f1": 0.9933,
+        "prec": 0.9939,
+        "recall": 0.9927
+      },
+      "Logistic Reg": {
+        "acc": 0.815,
+        "f1": 0.8734,
+        "prec": 0.856,
+        "recall": 0.8915
+      }
+    },
+    "Chroma_mean": {
+      "Decision Tree": {
+        "acc": 0.6763,
+        "f1": 0.7697,
+        "prec": 0.7838,
+        "recall": 0.7561
+      },
+      "Random Forest": {
+        "acc": 0.7548,
+        "f1": 0.838,
+        "prec": 0.7945,
+        "recall": 0.8866
+      },
+      "Gradient Boost": {
+        "acc": 0.7417,
+        "f1": 0.8352,
+        "prec": 0.7684,
+        "recall": 0.9146
+      },
+      "XGBoost": {
+        "acc": 0.7356,
+        "f1": 0.821,
+        "prec": 0.7961,
+        "recall": 0.8476
+      },
+      "Ada Boost": {
+        "acc": 0.7155,
+        "f1": 0.8342,
+        "prec": 0.7155,
+        "recall": 1.0
+      },
+      "Extra Tree": {
+        "acc": 0.7565,
+        "f1": 0.8405,
+        "prec": 0.7912,
+        "recall": 0.8963
+      },
+      "K-Neighbors": {
+        "acc": 0.7365,
+        "f1": 0.8192,
+        "prec": 0.8047,
+        "recall": 0.8341
+      },
+      "Support Vector": {
+        "acc": 0.7469,
+        "f1": 0.8451,
+        "prec": 0.7519,
+        "recall": 0.9646
+      },
+      "Gaussian Naive": {
+        "acc": 0.5855,
+        "f1": 0.636,
+        "prec": 0.8557,
+        "recall": 0.5061
+      },
+      "Multi-layer": {
+        "acc": 0.7653,
+        "f1": 0.8359,
+        "prec": 0.8364,
+        "recall": 0.8354
+      },
+      "Logistic Reg": {
+        "acc": 0.7112,
+        "f1": 0.8196,
+        "prec": 0.7409,
+        "recall": 0.9171
+      }
+    },
+    "Chroma_std": {
+      "Decision Tree": {
+        "acc": 0.6972,
+        "f1": 0.7862,
+        "prec": 0.7945,
+        "recall": 0.778
+      },
+      "Random Forest": {
+        "acc": 0.7452,
+        "f1": 0.8347,
+        "prec": 0.7791,
+        "recall": 0.8988
+      },
+      "Gradient Boost": {
+        "acc": 0.7461,
+        "f1": 0.8398,
+        "prec": 0.7653,
+        "recall": 0.9305
+      },
+      "XGBoost": {
+        "acc": 0.7496,
+        "f1": 0.8325,
+        "prec": 0.7984,
+        "recall": 0.8695
+      },
+      "Ada Boost": {
+        "acc": 0.7147,
+        "f1": 0.8336,
+        "prec": 0.7153,
+        "recall": 0.9988
+      },
+      "Extra Tree": {
+        "acc": 0.7574,
+        "f1": 0.8415,
+        "prec": 0.7901,
+        "recall": 0.9
+      },
+      "K-Neighbors": {
+        "acc": 0.7365,
+        "f1": 0.8181,
+        "prec": 0.8083,
+        "recall": 0.828
+      },
+      "Support Vector": {
+        "acc": 0.7286,
+        "f1": 0.8381,
+        "prec": 0.7312,
+        "recall": 0.9817
+      },
+      "Gaussian Naive": {
+        "acc": 0.6405,
+        "f1": 0.7325,
+        "prec": 0.7833,
+        "recall": 0.6878
+      },
+      "Multi-layer": {
+        "acc": 0.7574,
+        "f1": 0.8474,
+        "prec": 0.7705,
+        "recall": 0.9415
+      },
+      "Logistic Reg": {
+        "acc": 0.7173,
+        "f1": 0.8305,
+        "prec": 0.7271,
+        "recall": 0.9683
+      }
+    },
+    "Chroma(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.7365,
+        "f1": 0.8133,
+        "prec": 0.8246,
+        "recall": 0.8024
+      },
+      "Random Forest": {
+        "acc": 0.8045,
+        "f1": 0.8698,
+        "prec": 0.8311,
+        "recall": 0.9122
+      },
+      "Gradient Boost": {
+        "acc": 0.7967,
+        "f1": 0.8654,
+        "prec": 0.8222,
+        "recall": 0.9134
+      },
+      "XGBoost": {
+        "acc": 0.8229,
+        "f1": 0.8802,
+        "prec": 0.8526,
+        "recall": 0.9098
+      },
+      "Ada Boost": {
+        "acc": 0.7304,
+        "f1": 0.8135,
+        "prec": 0.8053,
+        "recall": 0.822
+      },
+      "Extra Tree": {
+        "acc": 0.8202,
+        "f1": 0.8795,
+        "prec": 0.8449,
+        "recall": 0.9171
+      },
+      "K-Neighbors": {
+        "acc": 0.7967,
+        "f1": 0.8584,
+        "prec": 0.8558,
+        "recall": 0.861
+      },
+      "Support Vector": {
+        "acc": 0.7914,
+        "f1": 0.8654,
+        "prec": 0.8042,
+        "recall": 0.9366
+      },
+      "Gaussian Naive": {
+        "acc": 0.5794,
+        "f1": 0.6403,
+        "prec": 0.825,
+        "recall": 0.5232
+      },
+      "Multi-layer": {
+        "acc": 0.8604,
+        "f1": 0.9007,
+        "prec": 0.9167,
+        "recall": 0.8854
+      },
+      "Logistic Reg": {
+        "acc": 0.7487,
+        "f1": 0.836,
+        "prec": 0.7842,
+        "recall": 0.8951
+      }
+    },
+    "c+s+r+z+h+p": {
+      "Decision Tree": {
+        "acc": 0.8351,
+        "f1": 0.8854,
+        "prec": 0.8806,
+        "recall": 0.8902
+      },
+      "Random Forest": {
+        "acc": 0.8709,
+        "f1": 0.9106,
+        "prec": 0.9019,
+        "recall": 0.9195
+      },
+      "Gradient Boost": {
+        "acc": 0.8595,
+        "f1": 0.9031,
+        "prec": 0.8918,
+        "recall": 0.9146
+      },
+      "XGBoost": {
+        "acc": 0.8918,
+        "f1": 0.9245,
+        "prec": 0.9234,
+        "recall": 0.9256
+      },
+      "Ada Boost": {
+        "acc": 0.7792,
+        "f1": 0.8548,
+        "prec": 0.8072,
+        "recall": 0.9085
+      },
+      "Extra Tree": {
+        "acc": 0.8691,
+        "f1": 0.9096,
+        "prec": 0.8988,
+        "recall": 0.9207
+      },
+      "K-Neighbors": {
+        "acc": 0.8115,
+        "f1": 0.8711,
+        "prec": 0.8528,
+        "recall": 0.8902
+      },
+      "Support Vector": {
+        "acc": 0.808,
+        "f1": 0.8734,
+        "prec": 0.8268,
+        "recall": 0.9256
+      },
+      "Gaussian Naive": {
+        "acc": 0.5244,
+        "f1": 0.5322,
+        "prec": 0.8986,
+        "recall": 0.378
+      },
+      "Multi-layer": {
+        "acc": 0.8717,
+        "f1": 0.9109,
+        "prec": 0.9059,
+        "recall": 0.9159
+      },
+      "Logistic Reg": {
+        "acc": 0.7496,
+        "f1": 0.8417,
+        "prec": 0.7684,
+        "recall": 0.9305
+      }
+    }
+  },
+  "0.4": {
+    "All": {
+      "Decision Tree": {
+        "acc": 0.9228,
+        "f1": 0.9458,
+        "prec": 0.951,
+        "recall": 0.9406
+      },
+      "Random Forest": {
+        "acc": 0.9751,
+        "f1": 0.9827,
+        "prec": 0.9765,
+        "recall": 0.989
+      },
+      "Gradient Boost": {
+        "acc": 0.9614,
+        "f1": 0.9731,
+        "prec": 0.97,
+        "recall": 0.9762
+      },
+      "XGBoost": {
+        "acc": 0.9797,
+        "f1": 0.9858,
+        "prec": 0.9863,
+        "recall": 0.9854
+      },
+      "Ada Boost": {
+        "acc": 0.8907,
+        "f1": 0.9244,
+        "prec": 0.9157,
+        "recall": 0.9333
+      },
+      "Extra Tree": {
+        "acc": 0.9823,
+        "f1": 0.9877,
+        "prec": 0.9863,
+        "recall": 0.989
+      },
+      "K-Neighbors": {
+        "acc": 0.9535,
+        "f1": 0.9668,
+        "prec": 0.9904,
+        "recall": 0.9442
+      },
+      "Support Vector": {
+        "acc": 0.9542,
+        "f1": 0.9679,
+        "prec": 0.9723,
+        "recall": 0.9634
+      },
+      "Gaussian Naive": {
+        "acc": 0.6774,
+        "f1": 0.7241,
+        "prec": 0.9336,
+        "recall": 0.5914
+      },
+      "Multi-layer": {
+        "acc": 0.9836,
+        "f1": 0.9885,
+        "prec": 0.9926,
+        "recall": 0.9845
+      },
+      "Logistic Reg": {
+        "acc": 0.9084,
+        "f1": 0.9362,
+        "prec": 0.9336,
+        "recall": 0.9388
+      }
+    },
+    "Mel+Chroma": {
+      "Decision Tree": {
+        "acc": 0.661,
+        "f1": 0.7595,
+        "prec": 0.7717,
+        "recall": 0.7477
+      },
+      "Random Forest": {
+        "acc": 0.7205,
+        "f1": 0.8159,
+        "prec": 0.7722,
+        "recall": 0.8647
+      },
+      "Gradient Boost": {
+        "acc": 0.7389,
+        "f1": 0.8367,
+        "prec": 0.7576,
+        "recall": 0.9342
+      },
+      "XGBoost": {
+        "acc": 0.7127,
+        "f1": 0.8045,
+        "prec": 0.7845,
+        "recall": 0.8254
+      },
+      "Ada Boost": {
+        "acc": 0.7428,
+        "f1": 0.8395,
+        "prec": 0.7587,
+        "recall": 0.9397
+      },
+      "Extra Tree": {
+        "acc": 0.7068,
+        "f1": 0.8081,
+        "prec": 0.7605,
+        "recall": 0.862
+      },
+      "K-Neighbors": {
+        "acc": 0.7134,
+        "f1": 0.8082,
+        "prec": 0.7756,
+        "recall": 0.8437
+      },
+      "Support Vector": {
+        "acc": 0.7395,
+        "f1": 0.8423,
+        "prec": 0.7434,
+        "recall": 0.9717
+      },
+      "Gaussian Naive": {
+        "acc": 0.6014,
+        "f1": 0.6717,
+        "prec": 0.8187,
+        "recall": 0.5695
+      },
+      "Multi-layer": {
+        "acc": 0.7454,
+        "f1": 0.8384,
+        "prec": 0.7685,
+        "recall": 0.9223
+      },
+      "Logistic Reg": {
+        "acc": 0.7009,
+        "f1": 0.8189,
+        "prec": 0.7229,
+        "recall": 0.9442
+      }
+    },
+    "MFCC_mean": {
+      "Decision Tree": {
+        "acc": 0.9234,
+        "f1": 0.9458,
+        "prec": 0.9587,
+        "recall": 0.9333
+      },
+      "Random Forest": {
+        "acc": 0.9777,
+        "f1": 0.9845,
+        "prec": 0.9827,
+        "recall": 0.9863
+      },
+      "Gradient Boost": {
+        "acc": 0.9267,
+        "f1": 0.9492,
+        "prec": 0.9423,
+        "recall": 0.9561
+      },
+      "XGBoost": {
+        "acc": 0.9705,
+        "f1": 0.9793,
+        "prec": 0.9834,
+        "recall": 0.9753
+      },
+      "Ada Boost": {
+        "acc": 0.8351,
+        "f1": 0.8897,
+        "prec": 0.8538,
+        "recall": 0.9287
+      },
+      "Extra Tree": {
+        "acc": 0.9902,
+        "f1": 0.9931,
+        "prec": 0.9972,
+        "recall": 0.989
+      },
+      "K-Neighbors": {
+        "acc": 0.9666,
+        "f1": 0.9763,
+        "prec": 0.9924,
+        "recall": 0.9607
+      },
+      "Support Vector": {
+        "acc": 0.9084,
+        "f1": 0.9368,
+        "prec": 0.9251,
+        "recall": 0.9488
+      },
+      "Gaussian Naive": {
+        "acc": 0.7349,
+        "f1": 0.8043,
+        "prec": 0.8533,
+        "recall": 0.7605
+      },
+      "Multi-layer": {
+        "acc": 0.9836,
+        "f1": 0.9885,
+        "prec": 0.9954,
+        "recall": 0.9817
+      },
+      "Logistic Reg": {
+        "acc": 0.8135,
+        "f1": 0.8735,
+        "prec": 0.849,
+        "recall": 0.8995
+      }
+    },
+    "MFCC_std": {
+      "Decision Tree": {
+        "acc": 0.7991,
+        "f1": 0.8571,
+        "prec": 0.873,
+        "recall": 0.8419
+      },
+      "Random Forest": {
+        "acc": 0.9136,
+        "f1": 0.9413,
+        "prec": 0.9161,
+        "recall": 0.968
+      },
+      "Gradient Boost": {
+        "acc": 0.839,
+        "f1": 0.8914,
+        "prec": 0.8618,
+        "recall": 0.9232
+      },
+      "XGBoost": {
+        "acc": 0.9188,
+        "f1": 0.9439,
+        "prec": 0.9346,
+        "recall": 0.9534
+      },
+      "Ada Boost": {
+        "acc": 0.748,
+        "f1": 0.8439,
+        "prec": 0.7582,
+        "recall": 0.9516
+      },
+      "Extra Tree": {
+        "acc": 0.9352,
+        "f1": 0.9558,
+        "prec": 0.9345,
+        "recall": 0.9781
+      },
+      "K-Neighbors": {
+        "acc": 0.9084,
+        "f1": 0.934,
+        "prec": 0.9649,
+        "recall": 0.9049
+      },
+      "Support Vector": {
+        "acc": 0.8599,
+        "f1": 0.9057,
+        "prec": 0.8741,
+        "recall": 0.9397
+      },
+      "Gaussian Naive": {
+        "acc": 0.6832,
+        "f1": 0.7602,
+        "prec": 0.8301,
+        "recall": 0.7011
+      },
+      "Multi-layer": {
+        "acc": 0.9287,
+        "f1": 0.95,
+        "prec": 0.9531,
+        "recall": 0.947
+      },
+      "Logistic Reg": {
+        "acc": 0.7376,
+        "f1": 0.8327,
+        "prec": 0.7659,
+        "recall": 0.9122
+      }
+    },
+    "MFCC(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.93,
+        "f1": 0.9508,
+        "prec": 0.9565,
+        "recall": 0.9452
+      },
+      "Random Forest": {
+        "acc": 0.9791,
+        "f1": 0.9855,
+        "prec": 0.9767,
+        "recall": 0.9945
+      },
+      "Gradient Boost": {
+        "acc": 0.9411,
+        "f1": 0.9593,
+        "prec": 0.9482,
+        "recall": 0.9707
+      },
+      "XGBoost": {
+        "acc": 0.9777,
+        "f1": 0.9844,
+        "prec": 0.9862,
+        "recall": 0.9826
+      },
+      "Ada Boost": {
+        "acc": 0.8364,
+        "f1": 0.8909,
+        "prec": 0.8523,
+        "recall": 0.9333
+      },
+      "Extra Tree": {
+        "acc": 0.9863,
+        "f1": 0.9904,
+        "prec": 0.9891,
+        "recall": 0.9918
+      },
+      "K-Neighbors": {
+        "acc": 0.945,
+        "f1": 0.9604,
+        "prec": 0.9922,
+        "recall": 0.9305
+      },
+      "Support Vector": {
+        "acc": 0.9476,
+        "f1": 0.9636,
+        "prec": 0.9601,
+        "recall": 0.9671
+      },
+      "Gaussian Naive": {
+        "acc": 0.7402,
+        "f1": 0.8026,
+        "prec": 0.88,
+        "recall": 0.7377
+      },
+      "Multi-layer": {
+        "acc": 0.9915,
+        "f1": 0.994,
+        "prec": 0.9972,
+        "recall": 0.9909
+      },
+      "Logistic Reg": {
+        "acc": 0.8226,
+        "f1": 0.8786,
+        "prec": 0.8613,
+        "recall": 0.8967
+      }
+    },
+    "Chroma_mean": {
+      "Decision Tree": {
+        "acc": 0.6459,
+        "f1": 0.7461,
+        "prec": 0.7666,
+        "recall": 0.7267
+      },
+      "Random Forest": {
+        "acc": 0.7421,
+        "f1": 0.8306,
+        "prec": 0.7841,
+        "recall": 0.883
+      },
+      "Gradient Boost": {
+        "acc": 0.7454,
+        "f1": 0.837,
+        "prec": 0.7726,
+        "recall": 0.9132
+      },
+      "XGBoost": {
+        "acc": 0.7245,
+        "f1": 0.8164,
+        "prec": 0.7807,
+        "recall": 0.8556
+      },
+      "Ada Boost": {
+        "acc": 0.716,
+        "f1": 0.8345,
+        "prec": 0.716,
+        "recall": 1.0
+      },
+      "Extra Tree": {
+        "acc": 0.7539,
+        "f1": 0.8367,
+        "prec": 0.7972,
+        "recall": 0.8803
+      },
+      "K-Neighbors": {
+        "acc": 0.7258,
+        "f1": 0.813,
+        "prec": 0.7942,
+        "recall": 0.8327
+      },
+      "Support Vector": {
+        "acc": 0.7382,
+        "f1": 0.8401,
+        "prec": 0.7464,
+        "recall": 0.9607
+      },
+      "Gaussian Naive": {
+        "acc": 0.5949,
+        "f1": 0.6513,
+        "prec": 0.8488,
+        "recall": 0.5283
+      },
+      "Multi-layer": {
+        "acc": 0.7755,
+        "f1": 0.8475,
+        "prec": 0.8251,
+        "recall": 0.8711
+      },
+      "Logistic Reg": {
+        "acc": 0.7062,
+        "f1": 0.8152,
+        "prec": 0.7416,
+        "recall": 0.9049
+      }
+    },
+    "Chroma_std": {
+      "Decision Tree": {
+        "acc": 0.6682,
+        "f1": 0.7688,
+        "prec": 0.7671,
+        "recall": 0.7706
+      },
+      "Random Forest": {
+        "acc": 0.7415,
+        "f1": 0.8333,
+        "prec": 0.7741,
+        "recall": 0.9022
+      },
+      "Gradient Boost": {
+        "acc": 0.7421,
+        "f1": 0.8361,
+        "prec": 0.7672,
+        "recall": 0.9186
+      },
+      "XGBoost": {
+        "acc": 0.75,
+        "f1": 0.8356,
+        "prec": 0.7894,
+        "recall": 0.8876
+      },
+      "Ada Boost": {
+        "acc": 0.7153,
+        "f1": 0.834,
+        "prec": 0.7158,
+        "recall": 0.9991
+      },
+      "Extra Tree": {
+        "acc": 0.7513,
+        "f1": 0.839,
+        "prec": 0.782,
+        "recall": 0.9049
+      },
+      "K-Neighbors": {
+        "acc": 0.7336,
+        "f1": 0.8166,
+        "prec": 0.8053,
+        "recall": 0.8282
+      },
+      "Support Vector": {
+        "acc": 0.7271,
+        "f1": 0.8358,
+        "prec": 0.7343,
+        "recall": 0.9698
+      },
+      "Gaussian Naive": {
+        "acc": 0.6309,
+        "f1": 0.7249,
+        "prec": 0.7772,
+        "recall": 0.6792
+      },
+      "Multi-layer": {
+        "acc": 0.7415,
+        "f1": 0.831,
+        "prec": 0.7812,
+        "recall": 0.8876
+      },
+      "Logistic Reg": {
+        "acc": 0.7042,
+        "f1": 0.8218,
+        "prec": 0.7226,
+        "recall": 0.9525
+      }
+    },
+    "Chroma(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.7271,
+        "f1": 0.8105,
+        "prec": 0.8058,
+        "recall": 0.8154
+      },
+      "Random Forest": {
+        "acc": 0.7965,
+        "f1": 0.8648,
+        "prec": 0.8244,
+        "recall": 0.9095
+      },
+      "Gradient Boost": {
+        "acc": 0.784,
+        "f1": 0.8573,
+        "prec": 0.8136,
+        "recall": 0.9059
+      },
+      "XGBoost": {
+        "acc": 0.805,
+        "f1": 0.8684,
+        "prec": 0.8402,
+        "recall": 0.8985
+      },
+      "Ada Boost": {
+        "acc": 0.7297,
+        "f1": 0.8389,
+        "prec": 0.7318,
+        "recall": 0.9826
+      },
+      "Extra Tree": {
+        "acc": 0.8076,
+        "f1": 0.8718,
+        "prec": 0.8333,
+        "recall": 0.9141
+      },
+      "K-Neighbors": {
+        "acc": 0.7938,
+        "f1": 0.8582,
+        "prec": 0.8456,
+        "recall": 0.8711
+      },
+      "Support Vector": {
+        "acc": 0.7781,
+        "f1": 0.8563,
+        "prec": 0.7984,
+        "recall": 0.9232
+      },
+      "Gaussian Naive": {
+        "acc": 0.5838,
+        "f1": 0.6486,
+        "prec": 0.8198,
+        "recall": 0.5366
+      },
+      "Multi-layer": {
+        "acc": 0.8449,
+        "f1": 0.8919,
+        "prec": 0.8899,
+        "recall": 0.894
+      },
+      "Logistic Reg": {
+        "acc": 0.7454,
+        "f1": 0.8331,
+        "prec": 0.785,
+        "recall": 0.8876
+      }
+    },
+    "c+s+r+z+h+p": {
+      "Decision Tree": {
+        "acc": 0.8416,
+        "f1": 0.8893,
+        "prec": 0.8901,
+        "recall": 0.8885
+      },
+      "Random Forest": {
+        "acc": 0.8717,
+        "f1": 0.9112,
+        "prec": 0.9038,
+        "recall": 0.9186
+      },
+      "Gradient Boost": {
+        "acc": 0.8619,
+        "f1": 0.9046,
+        "prec": 0.8953,
+        "recall": 0.9141
+      },
+      "XGBoost": {
+        "acc": 0.8901,
+        "f1": 0.9231,
+        "prec": 0.9248,
+        "recall": 0.9214
+      },
+      "Ada Boost": {
+        "acc": 0.7938,
+        "f1": 0.8574,
+        "prec": 0.8493,
+        "recall": 0.8656
+      },
+      "Extra Tree": {
+        "acc": 0.877,
+        "f1": 0.9161,
+        "prec": 0.8946,
+        "recall": 0.9388
+      },
+      "K-Neighbors": {
+        "acc": 0.8043,
+        "f1": 0.8669,
+        "prec": 0.8448,
+        "recall": 0.8903
+      },
+      "Support Vector": {
+        "acc": 0.803,
+        "f1": 0.8716,
+        "prec": 0.8169,
+        "recall": 0.9342
+      },
+      "Gaussian Naive": {
+        "acc": 0.5399,
+        "f1": 0.5548,
+        "prec": 0.9031,
+        "recall": 0.4004
+      },
+      "Multi-layer": {
+        "acc": 0.8639,
+        "f1": 0.9066,
+        "prec": 0.8913,
+        "recall": 0.9223
+      },
+      "Logistic Reg": {
+        "acc": 0.752,
+        "f1": 0.8435,
+        "prec": 0.7694,
+        "recall": 0.9333
+      }
+    }
+  },
+  "0.5": {
+    "All": {
+      "Decision Tree": {
+        "acc": 0.9104,
+        "f1": 0.9369,
+        "prec": 0.9449,
+        "recall": 0.929
+      },
+      "Random Forest": {
+        "acc": 0.9665,
+        "f1": 0.9768,
+        "prec": 0.9663,
+        "recall": 0.9876
+      },
+      "Gradient Boost": {
+        "acc": 0.9597,
+        "f1": 0.9719,
+        "prec": 0.9674,
+        "recall": 0.9766
+      },
+      "XGBoost": {
+        "acc": 0.9775,
+        "f1": 0.9842,
+        "prec": 0.986,
+        "recall": 0.9824
+      },
+      "Ada Boost": {
+        "acc": 0.8858,
+        "f1": 0.9216,
+        "prec": 0.9054,
+        "recall": 0.9385
+      },
+      "Extra Tree": {
+        "acc": 0.9785,
+        "f1": 0.9851,
+        "prec": 0.979,
+        "recall": 0.9912
+      },
+      "K-Neighbors": {
+        "acc": 0.9481,
+        "f1": 0.963,
+        "prec": 0.984,
+        "recall": 0.9429
+      },
+      "Support Vector": {
+        "acc": 0.9539,
+        "f1": 0.9677,
+        "prec": 0.9712,
+        "recall": 0.9641
+      },
+      "Gaussian Naive": {
+        "acc": 0.6778,
+        "f1": 0.7261,
+        "prec": 0.9272,
+        "recall": 0.5966
+      },
+      "Multi-layer": {
+        "acc": 0.9838,
+        "f1": 0.9886,
+        "prec": 0.9933,
+        "recall": 0.9839
+      },
+      "Logistic Reg": {
+        "acc": 0.9036,
+        "f1": 0.9329,
+        "prec": 0.9295,
+        "recall": 0.9363
+      }
+    },
+    "Mel+Chroma": {
+      "Decision Tree": {
+        "acc": 0.6726,
+        "f1": 0.772,
+        "prec": 0.7695,
+        "recall": 0.7745
+      },
+      "Random Forest": {
+        "acc": 0.7061,
+        "f1": 0.8068,
+        "prec": 0.7619,
+        "recall": 0.8572
+      },
+      "Gradient Boost": {
+        "acc": 0.7266,
+        "f1": 0.8296,
+        "prec": 0.7485,
+        "recall": 0.9305
+      },
+      "XGBoost": {
+        "acc": 0.7098,
+        "f1": 0.8052,
+        "prec": 0.7747,
+        "recall": 0.8382
+      },
+      "Ada Boost": {
+        "acc": 0.7297,
+        "f1": 0.8305,
+        "prec": 0.7533,
+        "recall": 0.9253
+      },
+      "Extra Tree": {
+        "acc": 0.7009,
+        "f1": 0.8034,
+        "prec": 0.7583,
+        "recall": 0.8543
+      },
+      "K-Neighbors": {
+        "acc": 0.7019,
+        "f1": 0.801,
+        "prec": 0.7669,
+        "recall": 0.8382
+      },
+      "Support Vector": {
+        "acc": 0.7365,
+        "f1": 0.8414,
+        "prec": 0.7391,
+        "recall": 0.9766
+      },
+      "Gaussian Naive": {
+        "acc": 0.6139,
+        "f1": 0.6862,
+        "prec": 0.8199,
+        "recall": 0.59
+      },
+      "Multi-layer": {
+        "acc": 0.7407,
+        "f1": 0.8387,
+        "prec": 0.7557,
+        "recall": 0.9422
+      },
+      "Logistic Reg": {
+        "acc": 0.6925,
+        "f1": 0.8141,
+        "prec": 0.7175,
+        "recall": 0.9407
+      }
+    },
+    "MFCC_mean": {
+      "Decision Tree": {
+        "acc": 0.913,
+        "f1": 0.9386,
+        "prec": 0.9491,
+        "recall": 0.9283
+      },
+      "Random Forest": {
+        "acc": 0.9738,
+        "f1": 0.9817,
+        "prec": 0.981,
+        "recall": 0.9824
+      },
+      "Gradient Boost": {
+        "acc": 0.9303,
+        "f1": 0.9517,
+        "prec": 0.9445,
+        "recall": 0.959
+      },
+      "XGBoost": {
+        "acc": 0.9675,
+        "f1": 0.9773,
+        "prec": 0.978,
+        "recall": 0.9766
+      },
+      "Ada Boost": {
+        "acc": 0.8355,
+        "f1": 0.8894,
+        "prec": 0.8569,
+        "recall": 0.9246
+      },
+      "Extra Tree": {
+        "acc": 0.9848,
+        "f1": 0.9893,
+        "prec": 0.9941,
+        "recall": 0.9846
+      },
+      "K-Neighbors": {
+        "acc": 0.9581,
+        "f1": 0.9701,
+        "prec": 0.9908,
+        "recall": 0.9502
+      },
+      "Support Vector": {
+        "acc": 0.9104,
+        "f1": 0.9384,
+        "prec": 0.9241,
+        "recall": 0.9531
+      },
+      "Gaussian Naive": {
+        "acc": 0.7229,
+        "f1": 0.791,
+        "prec": 0.8592,
+        "recall": 0.7328
+      },
+      "Multi-layer": {
+        "acc": 0.9796,
+        "f1": 0.9857,
+        "prec": 0.9875,
+        "recall": 0.9839
+      },
+      "Logistic Reg": {
+        "acc": 0.813,
+        "f1": 0.8726,
+        "prec": 0.8511,
+        "recall": 0.8953
+      }
+    },
+    "MFCC_std": {
+      "Decision Tree": {
+        "acc": 0.8067,
+        "f1": 0.8651,
+        "prec": 0.8641,
+        "recall": 0.866
+      },
+      "Random Forest": {
+        "acc": 0.9109,
+        "f1": 0.9398,
+        "prec": 0.9096,
+        "recall": 0.9722
+      },
+      "Gradient Boost": {
+        "acc": 0.8366,
+        "f1": 0.8904,
+        "prec": 0.8556,
+        "recall": 0.9283
+      },
+      "XGBoost": {
+        "acc": 0.9099,
+        "f1": 0.9371,
+        "prec": 0.9364,
+        "recall": 0.9378
+      },
+      "Ada Boost": {
+        "acc": 0.7454,
+        "f1": 0.843,
+        "prec": 0.7543,
+        "recall": 0.9553
+      },
+      "Extra Tree": {
+        "acc": 0.9293,
+        "f1": 0.9518,
+        "prec": 0.9289,
+        "recall": 0.9758
+      },
+      "K-Neighbors": {
+        "acc": 0.8942,
+        "f1": 0.9232,
+        "prec": 0.9604,
+        "recall": 0.8887
+      },
+      "Support Vector": {
+        "acc": 0.8612,
+        "f1": 0.9065,
+        "prec": 0.8747,
+        "recall": 0.9407
+      },
+      "Gaussian Naive": {
+        "acc": 0.6794,
+        "f1": 0.7552,
+        "prec": 0.8325,
+        "recall": 0.6911
+      },
+      "Multi-layer": {
+        "acc": 0.9246,
+        "f1": 0.9472,
+        "prec": 0.9493,
+        "recall": 0.9451
+      },
+      "Logistic Reg": {
+        "acc": 0.7438,
+        "f1": 0.8363,
+        "prec": 0.7705,
+        "recall": 0.9143
+      }
+    },
+    "MFCC(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.9193,
+        "f1": 0.9427,
+        "prec": 0.9591,
+        "recall": 0.9268
+      },
+      "Random Forest": {
+        "acc": 0.9717,
+        "f1": 0.9803,
+        "prec": 0.9747,
+        "recall": 0.9861
+      },
+      "Gradient Boost": {
+        "acc": 0.9387,
+        "f1": 0.9576,
+        "prec": 0.949,
+        "recall": 0.9663
+      },
+      "XGBoost": {
+        "acc": 0.9738,
+        "f1": 0.9816,
+        "prec": 0.9853,
+        "recall": 0.978
+      },
+      "Ada Boost": {
+        "acc": 0.8318,
+        "f1": 0.8852,
+        "prec": 0.8651,
+        "recall": 0.9063
+      },
+      "Extra Tree": {
+        "acc": 0.988,
+        "f1": 0.9916,
+        "prec": 0.9934,
+        "recall": 0.9898
+      },
+      "K-Neighbors": {
+        "acc": 0.9445,
+        "f1": 0.96,
+        "prec": 0.9907,
+        "recall": 0.9312
+      },
+      "Support Vector": {
+        "acc": 0.9445,
+        "f1": 0.9614,
+        "prec": 0.9559,
+        "recall": 0.9671
+      },
+      "Gaussian Naive": {
+        "acc": 0.7307,
+        "f1": 0.7939,
+        "prec": 0.8777,
+        "recall": 0.7247
+      },
+      "Multi-layer": {
+        "acc": 0.989,
+        "f1": 0.9923,
+        "prec": 0.9963,
+        "recall": 0.9883
+      },
+      "Logistic Reg": {
+        "acc": 0.8261,
+        "f1": 0.8802,
+        "prec": 0.8677,
+        "recall": 0.8931
+      }
+    },
+    "Chroma_mean": {
+      "Decision Tree": {
+        "acc": 0.6731,
+        "f1": 0.7709,
+        "prec": 0.7732,
+        "recall": 0.7687
+      },
+      "Random Forest": {
+        "acc": 0.7397,
+        "f1": 0.827,
+        "prec": 0.7883,
+        "recall": 0.8697
+      },
+      "Gradient Boost": {
+        "acc": 0.7245,
+        "f1": 0.8213,
+        "prec": 0.7662,
+        "recall": 0.8851
+      },
+      "XGBoost": {
+        "acc": 0.7245,
+        "f1": 0.8141,
+        "prec": 0.7869,
+        "recall": 0.8433
+      },
+      "Ada Boost": {
+        "acc": 0.7156,
+        "f1": 0.8342,
+        "prec": 0.7156,
+        "recall": 1.0
+      },
+      "Extra Tree": {
+        "acc": 0.7486,
+        "f1": 0.8343,
+        "prec": 0.7895,
+        "recall": 0.8843
+      },
+      "K-Neighbors": {
+        "acc": 0.7307,
+        "f1": 0.8162,
+        "prec": 0.7979,
+        "recall": 0.8353
+      },
+      "Support Vector": {
+        "acc": 0.7287,
+        "f1": 0.8293,
+        "prec": 0.7542,
+        "recall": 0.9209
+      },
+      "Gaussian Naive": {
+        "acc": 0.593,
+        "f1": 0.6495,
+        "prec": 0.8461,
+        "recall": 0.5271
+      },
+      "Multi-layer": {
+        "acc": 0.7669,
+        "f1": 0.8448,
+        "prec": 0.8068,
+        "recall": 0.8865
+      },
+      "Logistic Reg": {
+        "acc": 0.703,
+        "f1": 0.8104,
+        "prec": 0.7458,
+        "recall": 0.8873
+      }
+    },
+    "Chroma_std": {
+      "Decision Tree": {
+        "acc": 0.6742,
+        "f1": 0.7703,
+        "prec": 0.7772,
+        "recall": 0.7635
+      },
+      "Random Forest": {
+        "acc": 0.7386,
+        "f1": 0.8308,
+        "prec": 0.7738,
+        "recall": 0.8968
+      },
+      "Gradient Boost": {
+        "acc": 0.7328,
+        "f1": 0.8306,
+        "prec": 0.7603,
+        "recall": 0.9151
+      },
+      "XGBoost": {
+        "acc": 0.7433,
+        "f1": 0.8314,
+        "prec": 0.7844,
+        "recall": 0.8843
+      },
+      "Ada Boost": {
+        "acc": 0.7156,
+        "f1": 0.8342,
+        "prec": 0.7156,
+        "recall": 1.0
+      },
+      "Extra Tree": {
+        "acc": 0.7512,
+        "f1": 0.8384,
+        "prec": 0.7832,
+        "recall": 0.9019
+      },
+      "K-Neighbors": {
+        "acc": 0.7213,
+        "f1": 0.8081,
+        "prec": 0.7966,
+        "recall": 0.8199
+      },
+      "Support Vector": {
+        "acc": 0.7287,
+        "f1": 0.8344,
+        "prec": 0.7406,
+        "recall": 0.9553
+      },
+      "Gaussian Naive": {
+        "acc": 0.6276,
+        "f1": 0.7211,
+        "prec": 0.7768,
+        "recall": 0.6728
+      },
+      "Multi-layer": {
+        "acc": 0.7271,
+        "f1": 0.8176,
+        "prec": 0.7834,
+        "recall": 0.8551
+      },
+      "Logistic Reg": {
+        "acc": 0.703,
+        "f1": 0.821,
+        "prec": 0.7218,
+        "recall": 0.9517
+      }
+    },
+    "Chroma(mean+std)": {
+      "Decision Tree": {
+        "acc": 0.7177,
+        "f1": 0.8038,
+        "prec": 0.7994,
+        "recall": 0.8082
+      },
+      "Random Forest": {
+        "acc": 0.7842,
+        "f1": 0.8565,
+        "prec": 0.8167,
+        "recall": 0.9004
+      },
+      "Gradient Boost": {
+        "acc": 0.7732,
+        "f1": 0.8507,
+        "prec": 0.8039,
+        "recall": 0.9034
+      },
+      "XGBoost": {
+        "acc": 0.7899,
+        "f1": 0.8591,
+        "prec": 0.8262,
+        "recall": 0.8946
+      },
+      "Ada Boost": {
+        "acc": 0.7266,
+        "f1": 0.8125,
+        "prec": 0.7976,
+        "recall": 0.828
+      },
+      "Extra Tree": {
+        "acc": 0.7936,
+        "f1": 0.8625,
+        "prec": 0.824,
+        "recall": 0.9048
+      },
+      "K-Neighbors": {
+        "acc": 0.7973,
+        "f1": 0.8615,
+        "prec": 0.8425,
+        "recall": 0.8814
+      },
+      "Support Vector": {
+        "acc": 0.7742,
+        "f1": 0.8537,
+        "prec": 0.7961,
+        "recall": 0.9202
+      },
+      "Gaussian Naive": {
+        "acc": 0.5825,
+        "f1": 0.6472,
+        "prec": 0.8186,
+        "recall": 0.5351
+      },
+      "Multi-layer": {
+        "acc": 0.835,
+        "f1": 0.8877,
+        "prec": 0.8652,
+        "recall": 0.9114
+      },
+      "Logistic Reg": {
+        "acc": 0.7417,
+        "f1": 0.8296,
+        "prec": 0.7859,
+        "recall": 0.8785
+      }
+    },
+    "c+s+r+z+h+p": {
+      "Decision Tree": {
+        "acc": 0.8261,
+        "f1": 0.8787,
+        "prec": 0.8774,
+        "recall": 0.8799
+      },
+      "Random Forest": {
+        "acc": 0.8696,
+        "f1": 0.9105,
+        "prec": 0.8947,
+        "recall": 0.9268
+      },
+      "Gradient Boost": {
+        "acc": 0.857,
+        "f1": 0.9018,
+        "prec": 0.8868,
+        "recall": 0.9173
+      },
+      "XGBoost": {
+        "acc": 0.8785,
+        "f1": 0.9155,
+        "prec": 0.9115,
+        "recall": 0.9195
+      },
+      "Ada Boost": {
+        "acc": 0.7842,
+        "f1": 0.8555,
+        "prec": 0.821,
+        "recall": 0.8931
+      },
+      "Extra Tree": {
+        "acc": 0.8591,
+        "f1": 0.9044,
+        "prec": 0.8785,
+        "recall": 0.9319
+      },
+      "K-Neighbors": {
+        "acc": 0.8004,
+        "f1": 0.8651,
+        "prec": 0.8376,
+        "recall": 0.8946
+      },
+      "Support Vector": {
+        "acc": 0.7915,
+        "f1": 0.8654,
+        "prec": 0.804,
+        "recall": 0.937
+      },
+      "Gaussian Naive": {
+        "acc": 0.5385,
+        "f1": 0.5535,
+        "prec": 0.8995,
+        "recall": 0.3997
+      },
+      "Multi-layer": {
+        "acc": 0.8596,
+        "f1": 0.9034,
+        "prec": 0.8899,
+        "recall": 0.9173
+      },
+      "Logistic Reg": {
+        "acc": 0.7528,
+        "f1": 0.8442,
+        "prec": 0.7686,
+        "recall": 0.9363
+      }
+    }
+  }
+}
