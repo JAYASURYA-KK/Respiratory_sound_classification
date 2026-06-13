@@ -168,12 +168,12 @@ Eleven classifiers were evaluated across four train/test split ratios (0.20, 0.3
 
 | Classifier | Best Hyperparameters | Accuracy |
 |---|---|---|
-| KNN | `n_neighbors=1`, `metric=euclidean`, `weights=uniform` | **100%** |
-| SVM | `C=100`, `kernel=rbf`, `gamma=scale` | **100%** |
-| Random Forest | `n_estimators=100`, `max_features=sqrt`, `criterion=gini` | **100%** |
-| Gradient Boost | `lr=0.1`, `max_depth=7`, `n_estimators=100`, `subsample=0.5` | **100%** |
-| XGBoost | `lr=0.1`, `max_depth=7`, `n_estimators=1000`, `subsample=0.5` | **100%** |
-| Logistic Regression | `C=10`, `penalty=l1`, `solver=liblinear` | 74% |
+| KNN | `n_neighbors=1`, `metric=euclidean`, `weights=uniform` | **96%** |
+| SVM | `C=100`, `kernel=rbf`, `gamma=scale` | **93%** |
+| Random Forest | `n_estimators=100`, `max_features=sqrt`, `criterion=gini` | **93%** |
+| Gradient Boost | `lr=0.1`, `max_depth=7`, `n_estimators=100`, `subsample=0.5` | **92%** |
+| XGBoost | `lr=0.1`, `max_depth=7`, `n_estimators=1000`, `subsample=0.5` | **93%** |
+| Logistic Regression | `C=10`, `penalty=l1`, `solver=liblinear` | 69% |
 
 ---
 
