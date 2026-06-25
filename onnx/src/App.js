@@ -98,7 +98,7 @@ export default function App() {
           <input ref={fileInputRef} type="file" accept=".wav,.mp3,.ogg,.flac,.m4a"
             style={{ display: 'none' }} onChange={e => handleFile(e.target.files[0])} />
 
-         {stage === STAGE.IDLE && (
+          {stage === STAGE.IDLE && (
             <div className="idle-content">
               <div className="pulse-ring"><span className="drop-mic">🎙️</span></div>
               <h2>Drop Lung Audio Here</h2>
@@ -107,8 +107,6 @@ export default function App() {
               {statusMsg && <p className="status-warn">{statusMsg}</p>}
             </div>
           )}
-
-
 
           {busy && (
             <div className="busy-content">
@@ -176,7 +174,6 @@ export default function App() {
 function ResultCard({ result, audioInfo }) {
   const { predictedClass, probabilities } = result;
   const info = DISEASE_INFO[predictedClass];
-  const sorted = CLASSES.map((c, i) => ({ c, p: probabilities[i] })).sort((a, b) => b.p - a.p);
 
   return (
     <div className="result-card" style={{ '--accent': info.color }}>
@@ -194,6 +191,22 @@ function ResultCard({ result, audioInfo }) {
           <span>{audioInfo.originalSamples.toLocaleString()} samples</span>
         </div>
       )}
+      <div className="prob-bars">
+        {CLASSES.map((c, i) => (
+          <div key={c} style={{ display: 'flex', gap: 8, alignItems: 'center', fontSize: 13 }}>
+            <span style={{ width: 110, color: DISEASE_INFO[c].color }}>{c}</span>
+            <div style={{ flex: 1, background: '#eee', borderRadius: 4, height: 8 }}>
+              <div style={{
+                width: `${(probabilities[i] * 100).toFixed(1)}%`,
+                background: DISEASE_INFO[c].color,
+                height: '100%',
+                borderRadius: 4
+              }} />
+            </div>
+            <span style={{ width: 40, textAlign: 'right' }}>{(probabilities[i] * 100).toFixed(1)}%</span>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
